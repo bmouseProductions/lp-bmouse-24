@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  scroll-behavior: smooth;
+  font-family: degular, sans-serif;
+  background-color: #0f182d;
+}
+
+.bg-section-one {
+  background: url(./assets/image/bg-section-1.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.bg-header-section {
+  background: url(./assets/image/header-section-1.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+.bg-agromouse {
+  background: url(./assets/image/agromouse.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+.bg-story {
+  background: url(./assets/image/story.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+.efeito-vidro {
+  border-radius: 29px;
+  background: rgba(0, 0, 0, 0.24);
+  backdrop-filter: blur(7.5px);
+}
+
+hr {
+  background: radial-gradient(
+    947.41% 35.45% at 53.65% 49.76%,
+    #164671 0%,
+    #5e04f0 58%,
+    #4e24f2 66%,
+    #2775f8 82%,
+    #00c8ff 98%
+  );
+  height: 2px; /* Defina a altura da linha */
+  border: none; /* Remova a borda padrão se necessário */
+}
